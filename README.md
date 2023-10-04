@@ -1,0 +1,5 @@
+- Chiedere all'utente quanti km vuole percorrere
+- Chiedere all'utente l'età
+- Calcolare lo sconto
+    - calcolare il prezzo base come km x prezzo/km
+    - calcolare prezzo scontato come prezzo base x (1 - entità sconto)
