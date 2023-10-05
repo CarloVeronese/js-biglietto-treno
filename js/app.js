@@ -1,15 +1,13 @@
 // - Chiedere all'utente quanti km vuole percorrere
 let userTrainKm
-userTrainKm = prompt('Quanti km vuoi percorrere?')
+userTrainKm = parseFloat(prompt('Quanti km vuoi percorrere?'))
 console.log(userTrainKm)
 // - Chiedere all'utente l'età
 let userAge
-userAge = prompt('Quanti anni hai?')
+userAge = parseInt(prompt('Quanti anni hai?'))
 console.log(userAge)
 // - Calcolare lo sconto
 //     - calcolare il prezzo base come km x prezzo/km
-userAge = parseInt(userAge)
-userTrainKm = parseFloat(userTrainKm)
 let standardPrice = 0.21 * userTrainKm
 console.log(standardPrice)
 //     - calcolare prezzo scontato come prezzo base x (1 - entità sconto)
